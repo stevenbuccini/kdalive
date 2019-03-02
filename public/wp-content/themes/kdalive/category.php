@@ -8,8 +8,12 @@
  */
 
 get_header();
-?>
 
+
+	/* Add in our Beaver Builder Video Carousel module */
+	echo do_shortcode('[fl_builder_insert_layout slug="video-carousel-row"]');
+
+?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
@@ -24,8 +28,6 @@ get_header();
 
 
 		<?php
-			/* Add in our Beaver Builder Video Carousel module */
-			echo do_shortcode('[fl_builder_insert_layout slug="video-carousel-row"]');
 
 			/* Start the Loop */
 			while ( have_posts() ) :
