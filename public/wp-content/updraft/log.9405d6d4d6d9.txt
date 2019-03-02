@@ -1,0 +1,864 @@
+0000.000 (0) Opened log file at time: Sun, 17 Feb 2019 04:16:55 +0000 on https://kdalive.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.6.24 WP: 5.0.3 PHP: 7.0.32 (fpm-fcgi, Linux production02.oakleystudio.com 4.4.0-1054-aws #63-Ubuntu SMP Wed Mar 28 19:42:42 UTC 2018 x86_64) MySQL: 5.7.23-0ubuntu0.16.04.1-log WPLANG: en_US Server: Apache/2.4.35 (Unix) OpenSSL/1.0.2g safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 32.8M | 34M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 29221.8 MB
+0000.008 (0) Deleting old log file: log.7154ad3a02bf.txt
+0000.011 (0) Deleting old log file: log.36ccbcf3e133.txt
+0000.011 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.012 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.019 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1549773015, seconds_ago=604000)
+0000.023 (0) Set semaphore last lock (fd) time to 2019-02-17 04:16:55
+0000.026 (0) Semaphore lock (fd) complete
+0000.031 (0) Backup run: resumption=0, nonce=9405d6d4d6d9, file_nonce=9405d6d4d6d9 begun at=1550377015 (0s ago), job type=backup
+0000.035 (0) Scheduling a resumption (1) after 300 seconds (1550377315) in case this run gets aborted
+0000.043 (0) Checking if we have a zip executable available
+0000.046 (0) Testing: /usr/bin/zip
+0000.052 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.056 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.058 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.059 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.060 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.064 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.068 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.077 (0) Working binary zip found: /usr/bin/zip
+0000.082 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.083 (0) Creation of backups of directories: beginning
+0000.088 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.152 (0) Total entities for the zip file: 764 directories, 3725 files (0 skipped as non-modified), 60.4 MB
+0000.157 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.161 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.164 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.168 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.172 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.175 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 3725 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.326 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: size is now: 1.20 MB
+0000.332 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 600 files added (on-disk size: 1235 KB)
+0000.336 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 700 files added (on-disk size: 1235 KB)
+0000.339 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 800 files added (on-disk size: 1235 KB)
+0000.342 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 900 files added (on-disk size: 1235 KB)
+0000.345 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 1000 files added (on-disk size: 1235 KB)
+0000.349 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 3725 files batched, 501 (1002) added so far); re-opening (prior size: 1235 KB)
+0000.439 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: size is now: 1.90 MB
+0000.447 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 1100 files added (on-disk size: 1962.8 KB)
+0000.450 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 1200 files added (on-disk size: 1962.8 KB)
+0000.453 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 1300 files added (on-disk size: 1962.8 KB)
+0000.457 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 1400 files added (on-disk size: 1962.8 KB)
+0000.461 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 1500 files added (on-disk size: 1962.8 KB)
+0000.465 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 MB, 3725 files batched, 501 (1503) added so far); re-opening (prior size: 1962.8 KB)
+0000.667 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: size is now: 3.80 MB
+0000.675 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 1600 files added (on-disk size: 3897.7 KB)
+0000.679 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 1700 files added (on-disk size: 3897.7 KB)
+0000.684 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 1800 files added (on-disk size: 3897.7 KB)
+0000.687 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 1900 files added (on-disk size: 3897.7 KB)
+0000.690 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 2000 files added (on-disk size: 3897.7 KB)
+0000.692 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.3 MB, 3725 files batched, 501 (2004) added so far); re-opening (prior size: 3897.7 KB)
+0001.100 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: size is now: 5.40 MB
+0001.108 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 2100 files added (on-disk size: 5580.5 KB)
+0001.111 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 2200 files added (on-disk size: 5580.5 KB)
+0001.114 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 2300 files added (on-disk size: 5580.5 KB)
+0001.117 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 2400 files added (on-disk size: 5580.5 KB)
+0001.121 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 2500 files added (on-disk size: 5580.5 KB)
+0001.123 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.6 MB, 3725 files batched, 501 (2505) added so far); re-opening (prior size: 5580.5 KB)
+0001.812 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: size is now: 8.30 MB
+0001.817 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 2600 files added (on-disk size: 8545.1 KB)
+0001.821 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 2700 files added (on-disk size: 8545.1 KB)
+0001.825 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 2800 files added (on-disk size: 8545.1 KB)
+0001.829 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 2900 files added (on-disk size: 8545.1 KB)
+0001.833 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 3000 files added (on-disk size: 8545.1 KB)
+0001.836 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 3725 files batched, 501 (3006) added so far); re-opening (prior size: 8545.1 KB)
+0002.061 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 3100 files added (on-disk size: 9572.8 KB)
+0002.065 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 3200 files added (on-disk size: 9572.8 KB)
+0002.068 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 3300 files added (on-disk size: 9572.8 KB)
+0002.072 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 3400 files added (on-disk size: 9572.8 KB)
+0002.075 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 3500 files added (on-disk size: 9572.8 KB)
+0002.076 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.9 MB, 3725 files batched, 501 (3507) added so far); re-opening (prior size: 9572.8 KB)
+0002.655 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: size is now: 12.90 MB
+0002.662 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 3600 files added (on-disk size: 13167.2 KB)
+0002.666 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip.tmp: 3700 files added (on-disk size: 13167.2 KB)
+0003.322 (0) Created plugins zip (0) - 15565.4 KB in 3.2 s (4820.3 KB/s) (sha1: bc9d4d9f1cf9592a6cf167deacbed7ecc95f90cc, sha256: 17a0a511c2351266e4f630d116721582a64de577a934ae9ad494221a32aeb8d3)
+0003.328 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.339 (0) Total entities for the zip file: 56 directories, 276 files (0 skipped as non-modified), 3.9 MB
+0003.343 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.346 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.602 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-themes.zip.tmp: size is now: 2.60 MB
+0003.643 (0) Created themes zip (0) - 2695.9 KB in 0.3 s (8653.3 KB/s) (sha1: f15aec8f0d83df5d1ea56cd9e93c3887ee43b943, sha256: b1f66eaee94c17f0148c6327ae5e3613637405da2f9a01ffd4c66324ead48727)
+0003.648 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0003.651 (0) Looking for candidates to backup in: /srv/users/kdalive/apps/kdalive-com/public/wp-content/uploads
+0003.652 (0) finding files: youtube.png: adding to list (1)
+0003.655 (0) finding files: map-banner-no-title-1024x266.jpg: adding to list (2)
+0003.656 (0) finding files: newsletter.png: adding to list (3)
+0003.658 (0) finding files: kurt.png: adding to list (4)
+0003.659 (0) finding files: map-banner-no-title-150x150.jpg: adding to list (5)
+0003.663 (0) finding files: pre-location.png: adding to list (6)
+0003.664 (0) finding files: next-location.png: adding to list (7)
+0003.666 (0) finding files: map-banner-old-768x307.jpg: adding to list (8)
+0003.667 (0) finding files: map-banner-old-150x150.jpg: adding to list (9)
+0003.668 (0) finding files: map-banner-1024x264.jpg: adding to list (10)
+0003.671 (0) finding files: map-banner.jpg: adding to list (11)
+0003.672 (0) finding files: 2017: adding to list (12)
+0003.674 (0) finding files: linkedin-ho.png: adding to list (13)
+0003.675 (0) finding files: map-banner-768x198.jpg: adding to list (14)
+0003.676 (0) finding files: map-banner-no-title-300x78.jpg: adding to list (15)
+0003.679 (0) finding files: kdalive-v2.apk: adding to list (16)
+0003.680 (0) finding files: la-paz.jpg: adding to list (17)
+0003.683 (0) finding files: kd-logo.png: adding to list (18)
+0003.685 (0) finding files: map-banner-300x77.jpg: adding to list (19)
+0003.688 (0) finding files: 2014: adding to list (20)
+0003.690 (0) finding files: facebook-ho.png: adding to list (21)
+0003.691 (0) finding files: homeBanner.jpg: adding to list (22)
+0003.692 (0) finding files: 2018: adding to list (23)
+0003.694 (0) finding files: linkedin.png: adding to list (24)
+0003.696 (0) finding files: 2019: adding to list (25)
+0003.698 (0) finding files: buenos-aires.jpg: adding to list (26)
+0003.699 (0) finding files: bb-plugin: adding to list (27)
+0003.700 (0) finding files: map-banner-old-1024x410.jpg: adding to list (28)
+0003.703 (0) finding files: youtube-ho.png: adding to list (29)
+0003.704 (0) finding files: facebook.png: adding to list (30)
+0003.707 (0) finding files: map-banner-150x150.jpg: adding to list (31)
+0003.708 (0) finding files: map-banner-no-title.jpg: adding to list (32)
+0003.710 (0) finding files: current-location.png: adding to list (33)
+0003.711 (0) finding files: 2015: adding to list (34)
+0003.714 (0) finding files: moscow.jpg: adding to list (35)
+0003.715 (0) finding files: map-banner-old-300x120.jpg: adding to list (36)
+0003.716 (0) finding files: map-banner-old.jpg: adding to list (37)
+0003.718 (0) finding files: map-banner-no-title-768x200.jpg: adding to list (38)
+0003.719 (0) finding files: 2016: adding to list (39)
+0003.723 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0003.734 (0) Total entities for the zip file: 21 directories, 546 files (0 skipped as non-modified), 261.9 MB
+0003.739 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26.3 MB, 546 files batched, 71 (71) added so far); re-opening (prior size: 0 KB)
+0004.134 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-uploads.zip.tmp: size is now: 26.30 MB
+0004.141 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.2 s, rate: 20640.1 KB/s)
+0004.144 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.305428981781, normalised_time=1.2403012434386, max_time=4.1428489685059, data points known=1, old_max_bytes=26214400, new_max_bytes=126813063)
+0004.149 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-uploads.zip.tmp: 100 files added (on-disk size: 26961 KB)
+0004.153 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-uploads.zip.tmp: 200 files added (on-disk size: 26961 KB)
+0004.156 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-uploads.zip.tmp: 300 files added (on-disk size: 26961 KB)
+0004.159 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 120.9 MB added on this batch (121 MB, 546 files batched, 254 (325) added so far); re-opening (prior size: 26961 KB)
+0005.726 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-uploads.zip.tmp: size is now: 147.10 MB
+0005.731 (0) A useful amount of data was added after this amount of zip processing: 1.9 s (normalised: 1.9 s, rate: 65315.6 KB/s)
+0005.735 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.8962609767914, normalised_time=1.8960371837223, max_time=5.7321660518646, data points known=1, old_max_bytes=126813063, new_max_bytes=209715200)
+0005.740 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-uploads.zip.tmp: 400 files added (on-disk size: 150591.9 KB)
+0005.743 (0) Zip: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-uploads.zip.tmp: 500 files added (on-disk size: 150591.9 KB)
+0007.226 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-uploads.zip.tmp: size is now: 261.70 MB
+0010.058 (0) Created uploads zip (0) - 267932.8 KB in 6.3 s (42307.3 KB/s) (sha1: d89300aba2b75a66095b585524e7ba68e536d25a, sha256: dd0f3df477d2b9b6f1314648a0bcc3d1ac860384ee945ea3a4591dba05ba6e53)
+0010.061 (0) No backup of wpcore: excluded by user's options
+0010.064 (0) Beginning backup of other directories found in the content directory (index: 0)
+0010.067 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0010.068 (0) Looking for candidates to backup in: /srv/users/kdalive/apps/kdalive-com/public/wp-content
+0010.071 (0) finding files: upgrade: skipping: excluded by options
+0010.072 (0) finding files: themes: skipping: this is the themes directory
+0010.074 (0) finding files: plugins: skipping: this is the plugins directory
+0010.075 (0) finding files: updraft: skipping: this is the updraft directory
+0010.076 (0) finding files: mu-plugins: adding to list (1)
+0010.078 (0) finding files: uploads: skipping: this is the uploads directory
+0010.079 (0) finding files: index.php: adding to list (2)
+0010.084 (0) Total entities for the zip file: 1 directories, 2 files (0 skipped as non-modified), 0 MB
+0010.091 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-others.zip.tmp: size is now: 0.00 MB
+0010.100 (0) Created others zip (0) - 1 KB in 0 s (50.4 KB/s) (sha1: 4d07baafd29a70b067c6a9fdd96b1e1072687941, sha256: 09eb1f5666febce89779aa1aac551ce0b79241fe316ceb8eb1a35ac57127e4b9)
+0010.104 (0) No backup of more: excluded by user's options
+0010.112 (0) Saving backup status to database (elements: 8)
+0010.123 (0) Beginning creation of database dump (WordPress DB)
+0010.125 (0) All tables found will be backed up (indicated by backupdb_nonwp option)
+0010.131 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0010.221 (0) Binary mysqldump: error (code: 2)
+0010.233 (0) Table wp_861c900f9d_options: Total expected rows (approximate): 307
+0010.243 (0) Table wp_861c900f9d_options: Total rows added: 314 in 0.01 seconds
+0010.246 (0) Table wp_861c900f9d_options: finishing file (backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_options.table.gz - 50.4 KB)
+0010.252 (0) Table wp_861c900f9d_users: Total expected rows (approximate): 6
+0010.256 (0) Table wp_861c900f9d_users: Total rows added: 8 in 0.00 seconds
+0010.258 (0) Table wp_861c900f9d_users: finishing file (backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_users.table.gz - 1.2 KB)
+0010.264 (0) Table wp_861c900f9d_usermeta: Total expected rows (approximate): 123
+0010.268 (0) Table wp_861c900f9d_usermeta: Total rows added: 178 in 0.00 seconds
+0010.271 (0) Table wp_861c900f9d_usermeta: finishing file (backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_usermeta.table.gz - 3.7 KB)
+0010.276 (0) Table wp_861c900f9d_commentmeta: Total expected rows (approximate): 0
+0010.281 (0) Table wp_861c900f9d_commentmeta: Total rows added: 0 in 0.00 seconds
+0010.284 (0) Table wp_861c900f9d_commentmeta: finishing file (backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_commentmeta.table.gz - 0.4 KB)
+0010.291 (0) Table wp_861c900f9d_comments: Total expected rows (approximate): 0
+0010.293 (0) Table wp_861c900f9d_comments: Total rows added: 0 in 0.00 seconds
+0010.296 (0) Table wp_861c900f9d_comments: finishing file (backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_comments.table.gz - 0.5 KB)
+0010.303 (0) Table wp_861c900f9d_links: Total expected rows (approximate): 0
+0010.305 (0) Table wp_861c900f9d_links: Total rows added: 0 in 0.00 seconds
+0010.307 (0) Table wp_861c900f9d_links: finishing file (backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_links.table.gz - 0.5 KB)
+0010.313 (0) Table wp_861c900f9d_postmeta: Total expected rows (approximate): 1052
+0010.443 (0) Table wp_861c900f9d_postmeta: Total rows added: 1088 in 0.13 seconds
+0010.447 (0) Table wp_861c900f9d_postmeta: finishing file (backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_postmeta.table.gz - 381.9 KB)
+0010.453 (0) Table wp_861c900f9d_posts: Total expected rows (approximate): 668
+0010.536 (0) Table wp_861c900f9d_posts: Total rows added: 564 in 0.08 seconds
+0010.540 (0) Table wp_861c900f9d_posts: finishing file (backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_posts.table.gz - 390.1 KB)
+0010.547 (0) Table wp_861c900f9d_term_relationships: Total expected rows (approximate): 176
+0010.551 (0) Table wp_861c900f9d_term_relationships: Total rows added: 165 in 0.00 seconds
+0010.552 (0) Table wp_861c900f9d_term_relationships: finishing file (backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_term_relationships.table.gz - 0.9 KB)
+0010.560 (0) Table wp_861c900f9d_term_taxonomy: Total expected rows (approximate): 29
+0010.563 (0) Table wp_861c900f9d_term_taxonomy: Total rows added: 28 in 0.00 seconds
+0010.564 (0) Table wp_861c900f9d_term_taxonomy: finishing file (backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_term_taxonomy.table.gz - 0.7 KB)
+0010.572 (0) Table wp_861c900f9d_termmeta: Total expected rows (approximate): 0
+0010.574 (0) Table wp_861c900f9d_termmeta: Total rows added: 0 in 0.00 seconds
+0010.576 (0) Table wp_861c900f9d_termmeta: finishing file (backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_termmeta.table.gz - 0.4 KB)
+0010.583 (0) Table wp_861c900f9d_terms: Total expected rows (approximate): 30
+0010.587 (0) Table wp_861c900f9d_terms: Total rows added: 28 in 0.00 seconds
+0010.588 (0) Table wp_861c900f9d_terms: finishing file (backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_terms.table.gz - 0.8 KB)
+0010.596 (0) Table wp_861c900f9d_duplicator_packages: Total expected rows (approximate): 0
+0010.599 (0) Table wp_861c900f9d_duplicator_packages: Total rows added: 1 in 0.00 seconds
+0010.600 (0) Table wp_861c900f9d_duplicator_packages: finishing file (backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_duplicator_packages.table.gz - 1.5 KB)
+0010.607 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_options.table.gz (1/13): adding to final database dump
+0010.616 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_users.table.gz (2/13): adding to final database dump
+0010.619 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_usermeta.table.gz (3/13): adding to final database dump
+0010.621 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_commentmeta.table.gz (4/13): adding to final database dump
+0010.626 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_comments.table.gz (5/13): adding to final database dump
+0010.628 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_links.table.gz (6/13): adding to final database dump
+0010.631 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_postmeta.table.gz (7/13): adding to final database dump
+0010.738 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_posts.table.gz (8/13): adding to final database dump
+0010.817 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_term_relationships.table.gz (9/13): adding to final database dump
+0010.821 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_term_taxonomy.table.gz (10/13): adding to final database dump
+0010.824 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_termmeta.table.gz (11/13): adding to final database dump
+0010.827 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_terms.table.gz (12/13): adding to final database dump
+0010.828 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db-table-wp_861c900f9d_duplicator_packages.table.gz (13/13): adding to final database dump
+0010.831 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db.gz: finished writing out complete database file (824 KB)
+0010.850 (0) Total database tables backed up: 13 (backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db.gz, size: 850361, sha256)
+0010.869 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0010.871 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0010.872 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.874 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-others.zip: others: This file has not yet been successfully uploaded: will queue
+0010.875 (0) backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db.gz: db: This file has not yet been successfully uploaded: will queue
+0010.876 (0) Saving backup history. Total backup size: 280.3 MB
+0010.888 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0010.894 (0) Cloud backup selection (1/1): sftp with instance (1/1) (last)
+0010.895 (0) Beginning dispatch of backup to remote (sftp) (instance identifier s-675abbc2224e5e2d275b16428837f555)
+0013.200 (0) SFTP: Successfully logged in
+0013.204 (0) SCP/SFTP upload: attempt: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip
+0015.148 (0) Sftp chunked upload: 6.6 % uploaded
+0016.785 (0) Sftp chunked upload: 13.2 % uploaded
+0018.378 (0) Sftp chunked upload: 19.7 % uploaded
+0019.966 (0) Sftp chunked upload: 26.3 % uploaded
+0021.550 (0) Sftp chunked upload: 32.9 % uploaded
+0023.200 (0) Sftp chunked upload: 39.5 % uploaded
+0024.833 (0) Sftp chunked upload: 46.1 % uploaded
+0026.414 (0) Sftp chunked upload: 52.7 % uploaded
+0028.006 (0) Sftp chunked upload: 59.2 % uploaded
+0029.659 (0) Sftp chunked upload: 65.8 % uploaded
+0031.310 (0) Sftp chunked upload: 72.4 % uploaded
+0033.025 (0) Sftp chunked upload: 79 % uploaded
+0034.675 (0) Sftp chunked upload: 85.6 % uploaded
+0036.263 (0) Sftp chunked upload: 92.2 % uploaded
+0037.932 (0) Sftp chunked upload: 98.7 % uploaded
+0038.528 (0) Recording as successfully uploaded: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip
+0038.537 (0) Deleting local file: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-plugins.zip: OK
+0038.540 (0) SCP/SFTP upload: attempt: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-themes.zip
+0043.213 (0) Recording as successfully uploaded: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-themes.zip
+0043.219 (0) Deleting local file: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-themes.zip: OK
+0043.220 (0) SCP/SFTP upload: attempt: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-uploads.zip
+0069.903 (0) Sftp chunked upload: 6.1 % uploaded
+0071.784 (0) Sftp chunked upload: 6.5 % uploaded
+0073.454 (0) Sftp chunked upload: 6.9 % uploaded
+0075.083 (0) Sftp chunked upload: 7.3 % uploaded
+0076.747 (0) Sftp chunked upload: 7.6 % uploaded
+0078.402 (0) Sftp chunked upload: 8 % uploaded
+0080.078 (0) Sftp chunked upload: 8.4 % uploaded
+0081.706 (0) Sftp chunked upload: 8.8 % uploaded
+0083.393 (0) Sftp chunked upload: 9.2 % uploaded
+0085.014 (0) Sftp chunked upload: 9.6 % uploaded
+0086.742 (0) Sftp chunked upload: 9.9 % uploaded
+0088.361 (0) Sftp chunked upload: 10.3 % uploaded
+0089.986 (0) Sftp chunked upload: 10.7 % uploaded
+0091.672 (0) Sftp chunked upload: 11.1 % uploaded
+0093.336 (0) Sftp chunked upload: 11.5 % uploaded
+0094.953 (0) Sftp chunked upload: 11.9 % uploaded
+0096.576 (0) Sftp chunked upload: 12.2 % uploaded
+0098.506 (0) Sftp chunked upload: 12.6 % uploaded
+0100.138 (0) Sftp chunked upload: 13 % uploaded
+0101.826 (0) Sftp chunked upload: 13.4 % uploaded
+0103.517 (0) Sftp chunked upload: 13.8 % uploaded
+0105.137 (0) Sftp chunked upload: 14.2 % uploaded
+0106.762 (0) Sftp chunked upload: 14.5 % uploaded
+0108.411 (0) Sftp chunked upload: 14.9 % uploaded
+0110.090 (0) Sftp chunked upload: 15.3 % uploaded
+0111.777 (0) Sftp chunked upload: 15.7 % uploaded
+0113.396 (0) Sftp chunked upload: 16.1 % uploaded
+0115.064 (0) Sftp chunked upload: 16.4 % uploaded
+0116.732 (0) Sftp chunked upload: 16.8 % uploaded
+0118.394 (0) Sftp chunked upload: 17.2 % uploaded
+0120.077 (0) Sftp chunked upload: 17.6 % uploaded
+0121.829 (0) Sftp chunked upload: 18 % uploaded
+0123.460 (0) Sftp chunked upload: 18.4 % uploaded
+0125.329 (0) Sftp chunked upload: 18.7 % uploaded
+0127.022 (0) Sftp chunked upload: 19.1 % uploaded
+0128.757 (0) Sftp chunked upload: 19.5 % uploaded
+0130.381 (0) Sftp chunked upload: 19.9 % uploaded
+0132.069 (0) Sftp chunked upload: 20.3 % uploaded
+0133.739 (0) Sftp chunked upload: 20.7 % uploaded
+0135.362 (0) Sftp chunked upload: 21 % uploaded
+0137.046 (0) Sftp chunked upload: 21.4 % uploaded
+0138.712 (0) Sftp chunked upload: 21.8 % uploaded
+0140.330 (0) Sftp chunked upload: 22.2 % uploaded
+0141.999 (0) Sftp chunked upload: 22.6 % uploaded
+0143.668 (0) Sftp chunked upload: 22.9 % uploaded
+0145.287 (0) Sftp chunked upload: 23.3 % uploaded
+0146.970 (0) Sftp chunked upload: 23.7 % uploaded
+0148.640 (0) Sftp chunked upload: 24.1 % uploaded
+0150.331 (0) Sftp chunked upload: 24.5 % uploaded
+0152.218 (0) Sftp chunked upload: 24.9 % uploaded
+0153.912 (0) Sftp chunked upload: 25.2 % uploaded
+0155.579 (0) Sftp chunked upload: 25.6 % uploaded
+0157.204 (0) Sftp chunked upload: 26 % uploaded
+0158.868 (0) Sftp chunked upload: 26.4 % uploaded
+0160.535 (0) Sftp chunked upload: 26.8 % uploaded
+0162.152 (0) Sftp chunked upload: 27.2 % uploaded
+0163.838 (0) Sftp chunked upload: 27.5 % uploaded
+0165.590 (0) Sftp chunked upload: 27.9 % uploaded
+0167.220 (0) Sftp chunked upload: 28.3 % uploaded
+0168.889 (0) Sftp chunked upload: 28.7 % uploaded
+0170.551 (0) Sftp chunked upload: 29.1 % uploaded
+0172.173 (0) Sftp chunked upload: 29.4 % uploaded
+0173.814 (0) Sftp chunked upload: 29.8 % uploaded
+0175.438 (0) Sftp chunked upload: 30.2 % uploaded
+0177.260 (0) Sftp chunked upload: 30.6 % uploaded
+0179.107 (0) Sftp chunked upload: 31 % uploaded
+0180.858 (0) Sftp chunked upload: 31.4 % uploaded
+0182.480 (0) Sftp chunked upload: 31.7 % uploaded
+0184.107 (0) Sftp chunked upload: 32.1 % uploaded
+0185.796 (0) Sftp chunked upload: 32.5 % uploaded
+0187.460 (0) Sftp chunked upload: 32.9 % uploaded
+0189.076 (0) Sftp chunked upload: 33.3 % uploaded
+0190.701 (0) Sftp chunked upload: 33.7 % uploaded
+0192.389 (0) Sftp chunked upload: 34 % uploaded
+0194.078 (0) Sftp chunked upload: 34.4 % uploaded
+0195.741 (0) Sftp chunked upload: 34.8 % uploaded
+0197.363 (0) Sftp chunked upload: 35.2 % uploaded
+0199.028 (0) Sftp chunked upload: 35.6 % uploaded
+0200.655 (0) Sftp chunked upload: 35.9 % uploaded
+0202.269 (0) Sftp chunked upload: 36.3 % uploaded
+0203.948 (0) Sftp chunked upload: 36.7 % uploaded
+0205.896 (0) Sftp chunked upload: 37.1 % uploaded
+0207.527 (0) Sftp chunked upload: 37.5 % uploaded
+0209.197 (0) Sftp chunked upload: 37.9 % uploaded
+0210.863 (0) Sftp chunked upload: 38.2 % uploaded
+0212.482 (0) Sftp chunked upload: 38.6 % uploaded
+0214.101 (0) Sftp chunked upload: 39 % uploaded
+0215.727 (0) Sftp chunked upload: 39.4 % uploaded
+0217.460 (0) Sftp chunked upload: 39.8 % uploaded
+0219.078 (0) Sftp chunked upload: 40.2 % uploaded
+0220.822 (0) Sftp chunked upload: 40.5 % uploaded
+0222.445 (0) Sftp chunked upload: 40.9 % uploaded
+0224.082 (0) Sftp chunked upload: 41.3 % uploaded
+0225.767 (0) Sftp chunked upload: 41.7 % uploaded
+0227.386 (0) Sftp chunked upload: 42.1 % uploaded
+0229.004 (0) Sftp chunked upload: 42.5 % uploaded
+0230.693 (0) Sftp chunked upload: 42.8 % uploaded
+0232.562 (0) Sftp chunked upload: 43.2 % uploaded
+0234.190 (0) Sftp chunked upload: 43.6 % uploaded
+0235.875 (0) Sftp chunked upload: 44 % uploaded
+0237.499 (0) Sftp chunked upload: 44.4 % uploaded
+0239.122 (0) Sftp chunked upload: 44.7 % uploaded
+0240.855 (0) Sftp chunked upload: 45.1 % uploaded
+0242.471 (0) Sftp chunked upload: 45.5 % uploaded
+0244.088 (0) Sftp chunked upload: 45.9 % uploaded
+0245.776 (0) Sftp chunked upload: 46.3 % uploaded
+0247.463 (0) Sftp chunked upload: 46.7 % uploaded
+0249.212 (0) Sftp chunked upload: 47 % uploaded
+0250.834 (0) Sftp chunked upload: 47.4 % uploaded
+0252.451 (0) Sftp chunked upload: 47.8 % uploaded
+0254.138 (0) Sftp chunked upload: 48.2 % uploaded
+0255.828 (0) The scheduled resumption is within 45 seconds - will reschedule
+0255.831 (0) Rescheduling resumption 1: moving to 345 seconds from now (1550377615)
+0255.836 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0255.838 (0) Sftp chunked upload: 48.6 % uploaded
+0257.493 (0) Sftp chunked upload: 49 % uploaded
+0259.311 (0) Sftp chunked upload: 49.3 % uploaded
+0260.999 (0) Sftp chunked upload: 49.7 % uploaded
+0262.676 (0) Sftp chunked upload: 50.1 % uploaded
+0264.301 (0) Sftp chunked upload: 50.5 % uploaded
+0265.986 (0) Sftp chunked upload: 50.9 % uploaded
+0267.651 (0) Sftp chunked upload: 51.2 % uploaded
+0269.271 (0) Sftp chunked upload: 51.6 % uploaded
+0270.940 (0) Sftp chunked upload: 52 % uploaded
+0272.558 (0) Sftp chunked upload: 52.4 % uploaded
+0274.245 (0) Sftp chunked upload: 52.8 % uploaded
+0275.867 (0) Sftp chunked upload: 53.2 % uploaded
+0277.532 (0) Sftp chunked upload: 53.5 % uploaded
+0279.154 (0) Sftp chunked upload: 53.9 % uploaded
+0280.836 (0) Sftp chunked upload: 54.3 % uploaded
+0282.522 (0) Sftp chunked upload: 54.7 % uploaded
+0284.145 (0) Sftp chunked upload: 55.1 % uploaded
+0286.016 (0) Sftp chunked upload: 55.5 % uploaded
+0287.646 (0) Sftp chunked upload: 55.8 % uploaded
+0289.331 (0) Sftp chunked upload: 56.2 % uploaded
+0290.998 (0) Sftp chunked upload: 56.6 % uploaded
+0292.622 (0) Sftp chunked upload: 57 % uploaded
+0294.288 (0) Sftp chunked upload: 57.4 % uploaded
+0295.950 (0) Sftp chunked upload: 57.7 % uploaded
+0297.610 (0) Sftp chunked upload: 58.1 % uploaded
+0299.232 (0) Sftp chunked upload: 58.5 % uploaded
+0300.857 (0) Sftp chunked upload: 58.9 % uploaded
+0302.605 (0) Sftp chunked upload: 59.3 % uploaded
+0304.225 (0) Sftp chunked upload: 59.7 % uploaded
+0305.842 (0) Sftp chunked upload: 60 % uploaded
+0307.530 (0) Sftp chunked upload: 60.4 % uploaded
+0309.221 (0) Sftp chunked upload: 60.8 % uploaded
+0310.909 (0) Sftp chunked upload: 61.2 % uploaded
+0312.732 (0) Sftp chunked upload: 61.6 % uploaded
+0314.373 (0) Sftp chunked upload: 62 % uploaded
+0316.002 (0) The time we have been running (316) is approaching the resumption interval (345) - increasing resumption interval to 346
+0316.006 (0) Sftp chunked upload: 62.3 % uploaded
+0317.686 (0) The time we have been running (317.7) is approaching the resumption interval (346) - increasing resumption interval to 348
+0317.688 (0) Sftp chunked upload: 62.7 % uploaded
+0319.350 (0) The time we have been running (319.3) is approaching the resumption interval (348) - increasing resumption interval to 350
+0319.352 (0) Sftp chunked upload: 63.1 % uploaded
+0320.966 (0) The time we have been running (321) is approaching the resumption interval (350) - increasing resumption interval to 351
+0320.968 (0) Sftp chunked upload: 63.5 % uploaded
+0322.847 (0) The time we have been running (322.8) is approaching the resumption interval (351) - increasing resumption interval to 353
+0322.851 (0) Sftp chunked upload: 63.9 % uploaded
+0324.467 (0) The time we have been running (324.5) is approaching the resumption interval (353) - increasing resumption interval to 355
+0324.471 (0) Sftp chunked upload: 64.3 % uploaded
+0326.134 (0) The time we have been running (326.1) is approaching the resumption interval (355) - increasing resumption interval to 357
+0326.138 (0) Sftp chunked upload: 64.6 % uploaded
+0327.799 (0) The time we have been running (327.8) is approaching the resumption interval (357) - increasing resumption interval to 358
+0327.803 (0) Sftp chunked upload: 65 % uploaded
+0329.422 (0) The time we have been running (329.4) is approaching the resumption interval (358) - increasing resumption interval to 360
+0329.424 (0) Sftp chunked upload: 65.4 % uploaded
+0331.164 (0) The time we have been running (331.2) is approaching the resumption interval (360) - increasing resumption interval to 362
+0331.168 (0) Sftp chunked upload: 65.8 % uploaded
+0332.847 (0) The time we have been running (332.8) is approaching the resumption interval (362) - increasing resumption interval to 363
+0332.851 (0) Sftp chunked upload: 66.2 % uploaded
+0334.475 (0) The time we have been running (334.5) is approaching the resumption interval (363) - increasing resumption interval to 365
+0334.479 (0) Sftp chunked upload: 66.5 % uploaded
+0336.206 (0) The time we have been running (336.2) is approaching the resumption interval (365) - increasing resumption interval to 367
+0336.208 (0) Sftp chunked upload: 66.9 % uploaded
+0337.814 (0) The time we have been running (337.8) is approaching the resumption interval (367) - increasing resumption interval to 368
+0337.816 (0) Sftp chunked upload: 67.3 % uploaded
+0339.718 (0) The time we have been running (339.7) is approaching the resumption interval (368) - increasing resumption interval to 370
+0339.722 (0) Sftp chunked upload: 67.7 % uploaded
+0341.314 (0) The time we have been running (341.3) is approaching the resumption interval (370) - increasing resumption interval to 372
+0341.318 (0) Sftp chunked upload: 68.1 % uploaded
+0342.971 (0) The time we have been running (343) is approaching the resumption interval (372) - increasing resumption interval to 373
+0342.974 (0) Sftp chunked upload: 68.5 % uploaded
+0344.623 (0) The time we have been running (344.6) is approaching the resumption interval (373) - increasing resumption interval to 375
+0344.626 (0) Sftp chunked upload: 68.8 % uploaded
+0346.212 (0) The time we have been running (346.2) is approaching the resumption interval (375) - increasing resumption interval to 377
+0346.216 (0) Sftp chunked upload: 69.2 % uploaded
+0347.923 (0) The time we have been running (347.9) is approaching the resumption interval (377) - increasing resumption interval to 378
+0347.927 (0) Sftp chunked upload: 69.6 % uploaded
+0349.512 (0) The time we have been running (349.5) is approaching the resumption interval (378) - increasing resumption interval to 380
+0349.516 (0) Sftp chunked upload: 70 % uploaded
+0351.159 (0) The time we have been running (351.2) is approaching the resumption interval (380) - increasing resumption interval to 382
+0351.163 (0) Sftp chunked upload: 70.4 % uploaded
+0352.815 (0) The time we have been running (352.8) is approaching the resumption interval (382) - increasing resumption interval to 383
+0352.819 (0) Sftp chunked upload: 70.8 % uploaded
+0354.470 (0) The time we have been running (354.5) is approaching the resumption interval (383) - increasing resumption interval to 385
+0354.472 (0) Sftp chunked upload: 71.1 % uploaded
+0356.060 (0) The time we have been running (356.1) is approaching the resumption interval (385) - increasing resumption interval to 387
+0356.064 (0) Sftp chunked upload: 71.5 % uploaded
+0357.707 (0) The time we have been running (357.7) is approaching the resumption interval (387) - increasing resumption interval to 388
+0357.710 (0) Sftp chunked upload: 71.9 % uploaded
+0359.339 (0) The time we have been running (359.3) is approaching the resumption interval (388) - increasing resumption interval to 390
+0359.343 (0) Sftp chunked upload: 72.3 % uploaded
+0360.926 (0) The time we have been running (360.9) is approaching the resumption interval (390) - increasing resumption interval to 391
+0360.930 (0) Sftp chunked upload: 72.7 % uploaded
+0362.566 (0) The time we have been running (362.6) is approaching the resumption interval (391) - increasing resumption interval to 393
+0362.570 (0) Sftp chunked upload: 73 % uploaded
+0364.148 (0) The time we have been running (364.1) is approaching the resumption interval (393) - increasing resumption interval to 395
+0364.151 (0) Sftp chunked upload: 73.4 % uploaded
+0366.050 (0) The time we have been running (366) is approaching the resumption interval (395) - increasing resumption interval to 397
+0366.052 (0) Sftp chunked upload: 73.8 % uploaded
+0367.655 (0) The time we have been running (367.6) is approaching the resumption interval (397) - increasing resumption interval to 398
+0367.658 (0) Sftp chunked upload: 74.2 % uploaded
+0369.242 (0) The time we have been running (369.2) is approaching the resumption interval (398) - increasing resumption interval to 400
+0369.246 (0) Sftp chunked upload: 74.6 % uploaded
+0370.891 (0) The time we have been running (370.9) is approaching the resumption interval (400) - increasing resumption interval to 401
+0370.894 (0) Sftp chunked upload: 75 % uploaded
+0372.542 (0) The time we have been running (372.5) is approaching the resumption interval (401) - increasing resumption interval to 403
+0372.544 (0) Sftp chunked upload: 75.3 % uploaded
+0374.191 (0) The time we have been running (374.2) is approaching the resumption interval (403) - increasing resumption interval to 405
+0374.195 (0) Sftp chunked upload: 75.7 % uploaded
+0375.792 (0) The time we have been running (375.8) is approaching the resumption interval (405) - increasing resumption interval to 406
+0375.796 (0) Sftp chunked upload: 76.1 % uploaded
+0377.426 (0) The time we have been running (377.4) is approaching the resumption interval (406) - increasing resumption interval to 408
+0377.429 (0) Sftp chunked upload: 76.5 % uploaded
+0379.011 (0) The time we have been running (379) is approaching the resumption interval (408) - increasing resumption interval to 410
+0379.015 (0) Sftp chunked upload: 76.9 % uploaded
+0380.596 (0) The time we have been running (380.6) is approaching the resumption interval (410) - increasing resumption interval to 411
+0380.599 (0) Sftp chunked upload: 77.3 % uploaded
+0382.246 (0) The time we have been running (382.2) is approaching the resumption interval (411) - increasing resumption interval to 413
+0382.248 (0) Sftp chunked upload: 77.6 % uploaded
+0383.900 (0) The time we have been running (383.9) is approaching the resumption interval (413) - increasing resumption interval to 414
+0383.904 (0) Sftp chunked upload: 78 % uploaded
+0385.555 (0) The time we have been running (385.5) is approaching the resumption interval (414) - increasing resumption interval to 416
+0385.558 (0) Sftp chunked upload: 78.4 % uploaded
+0387.263 (0) The time we have been running (387.3) is approaching the resumption interval (416) - increasing resumption interval to 418
+0387.267 (0) Sftp chunked upload: 78.8 % uploaded
+0388.914 (0) The time we have been running (388.9) is approaching the resumption interval (418) - increasing resumption interval to 419
+0388.916 (0) Sftp chunked upload: 79.2 % uploaded
+0390.502 (0) The time we have been running (390.5) is approaching the resumption interval (419) - increasing resumption interval to 421
+0390.505 (0) Sftp chunked upload: 79.5 % uploaded
+0392.288 (0) The time we have been running (392.3) is approaching the resumption interval (421) - increasing resumption interval to 423
+0392.291 (0) Sftp chunked upload: 79.9 % uploaded
+0393.950 (0) The time we have been running (393.9) is approaching the resumption interval (423) - increasing resumption interval to 424
+0393.954 (0) Sftp chunked upload: 80.3 % uploaded
+0395.588 (0) The time we have been running (395.6) is approaching the resumption interval (424) - increasing resumption interval to 426
+0395.591 (0) Sftp chunked upload: 80.7 % uploaded
+0397.230 (0) The time we have been running (397.2) is approaching the resumption interval (426) - increasing resumption interval to 428
+0397.234 (0) Sftp chunked upload: 81.1 % uploaded
+0398.824 (0) The time we have been running (398.8) is approaching the resumption interval (428) - increasing resumption interval to 429
+0398.828 (0) Sftp chunked upload: 81.5 % uploaded
+0400.418 (0) The time we have been running (400.4) is approaching the resumption interval (429) - increasing resumption interval to 431
+0400.420 (0) Sftp chunked upload: 81.8 % uploaded
+0402.067 (0) The time we have been running (402.1) is approaching the resumption interval (431) - increasing resumption interval to 433
+0402.071 (0) Sftp chunked upload: 82.2 % uploaded
+0403.696 (0) The time we have been running (403.7) is approaching the resumption interval (433) - increasing resumption interval to 434
+0403.700 (0) Sftp chunked upload: 82.6 % uploaded
+0405.282 (0) The time we have been running (405.3) is approaching the resumption interval (434) - increasing resumption interval to 436
+0405.286 (0) Sftp chunked upload: 83 % uploaded
+0406.879 (0) The time we have been running (406.9) is approaching the resumption interval (436) - increasing resumption interval to 437
+0406.883 (0) Sftp chunked upload: 83.4 % uploaded
+0408.544 (0) The time we have been running (408.5) is approaching the resumption interval (437) - increasing resumption interval to 439
+0408.548 (0) Sftp chunked upload: 83.8 % uploaded
+0410.174 (0) The time we have been running (410.2) is approaching the resumption interval (439) - increasing resumption interval to 441
+0410.176 (0) Sftp chunked upload: 84.1 % uploaded
+0411.806 (0) The time we have been running (411.8) is approaching the resumption interval (441) - increasing resumption interval to 442
+0411.808 (0) Sftp chunked upload: 84.5 % uploaded
+0413.399 (0) The time we have been running (413.4) is approaching the resumption interval (442) - increasing resumption interval to 444
+0413.403 (0) Sftp chunked upload: 84.9 % uploaded
+0415.036 (0) The time we have been running (415) is approaching the resumption interval (444) - increasing resumption interval to 446
+0415.039 (0) Sftp chunked upload: 85.3 % uploaded
+0416.670 (0) The time we have been running (416.7) is approaching the resumption interval (446) - increasing resumption interval to 447
+0416.672 (0) Sftp chunked upload: 85.7 % uploaded
+0418.452 (0) The time we have been running (418.4) is approaching the resumption interval (447) - increasing resumption interval to 449
+0418.456 (0) Sftp chunked upload: 86 % uploaded
+0420.155 (0) The time we have been running (420.1) is approaching the resumption interval (449) - increasing resumption interval to 451
+0420.158 (0) Sftp chunked upload: 86.4 % uploaded
+0421.819 (0) The time we have been running (421.8) is approaching the resumption interval (451) - increasing resumption interval to 452
+0421.823 (0) Sftp chunked upload: 86.8 % uploaded
+0423.424 (0) The time we have been running (423.4) is approaching the resumption interval (452) - increasing resumption interval to 454
+0423.428 (0) Sftp chunked upload: 87.2 % uploaded
+0425.124 (0) The time we have been running (425.1) is approaching the resumption interval (454) - increasing resumption interval to 456
+0425.127 (0) Sftp chunked upload: 87.6 % uploaded
+0426.722 (0) The time we have been running (426.7) is approaching the resumption interval (456) - increasing resumption interval to 457
+0426.726 (0) Sftp chunked upload: 88 % uploaded
+0428.370 (0) The time we have been running (428.4) is approaching the resumption interval (457) - increasing resumption interval to 459
+0428.372 (0) Sftp chunked upload: 88.3 % uploaded
+0430.002 (0) The time we have been running (430) is approaching the resumption interval (459) - increasing resumption interval to 460
+0430.004 (0) Sftp chunked upload: 88.7 % uploaded
+0431.590 (0) The time we have been running (431.6) is approaching the resumption interval (460) - increasing resumption interval to 462
+0431.592 (0) Sftp chunked upload: 89.1 % uploaded
+0433.224 (0) The time we have been running (433.2) is approaching the resumption interval (462) - increasing resumption interval to 464
+0433.228 (0) Sftp chunked upload: 89.5 % uploaded
+0434.855 (0) The time we have been running (434.8) is approaching the resumption interval (464) - increasing resumption interval to 465
+0434.859 (0) Sftp chunked upload: 89.9 % uploaded
+0436.484 (0) The time we have been running (436.5) is approaching the resumption interval (465) - increasing resumption interval to 467
+0436.488 (0) Sftp chunked upload: 90.3 % uploaded
+0438.068 (0) The time we have been running (438.1) is approaching the resumption interval (467) - increasing resumption interval to 469
+0438.072 (0) Sftp chunked upload: 90.6 % uploaded
+0439.975 (0) The time we have been running (440) is approaching the resumption interval (469) - increasing resumption interval to 470
+0439.979 (0) Sftp chunked upload: 91 % uploaded
+0441.604 (0) The time we have been running (441.6) is approaching the resumption interval (470) - increasing resumption interval to 472
+0441.608 (0) Sftp chunked upload: 91.4 % uploaded
+0443.198 (0) The time we have been running (443.2) is approaching the resumption interval (472) - increasing resumption interval to 474
+0443.200 (0) Sftp chunked upload: 91.8 % uploaded
+0444.983 (0) The time we have been running (445) is approaching the resumption interval (474) - increasing resumption interval to 475
+0444.987 (0) Sftp chunked upload: 92.2 % uploaded
+0446.834 (0) The time we have been running (446.8) is approaching the resumption interval (475) - increasing resumption interval to 477
+0446.838 (0) Sftp chunked upload: 92.6 % uploaded
+0448.732 (0) The time we have been running (448.7) is approaching the resumption interval (477) - increasing resumption interval to 479
+0448.735 (0) Sftp chunked upload: 92.9 % uploaded
+0450.380 (0) The time we have been running (450.4) is approaching the resumption interval (479) - increasing resumption interval to 481
+0450.383 (0) Sftp chunked upload: 93.3 % uploaded
+0452.012 (0) The time we have been running (452) is approaching the resumption interval (481) - increasing resumption interval to 483
+0452.016 (0) Sftp chunked upload: 93.7 % uploaded
+0453.646 (0) The time we have been running (453.6) is approaching the resumption interval (483) - increasing resumption interval to 484
+0453.650 (0) Sftp chunked upload: 94.1 % uploaded
+0455.336 (0) The time we have been running (455.3) is approaching the resumption interval (484) - increasing resumption interval to 486
+0455.340 (0) Sftp chunked upload: 94.5 % uploaded
+0456.927 (0) The time we have been running (456.9) is approaching the resumption interval (486) - increasing resumption interval to 487
+0456.930 (0) Sftp chunked upload: 94.8 % uploaded
+0458.515 (0) The time we have been running (458.5) is approaching the resumption interval (487) - increasing resumption interval to 489
+0458.519 (0) Sftp chunked upload: 95.2 % uploaded
+0460.543 (0) The time we have been running (460.5) is approaching the resumption interval (489) - increasing resumption interval to 491
+0460.547 (0) Sftp chunked upload: 95.6 % uploaded
+0462.176 (0) The time we have been running (462.2) is approaching the resumption interval (491) - increasing resumption interval to 493
+0462.180 (0) Sftp chunked upload: 96 % uploaded
+0463.768 (0) The time we have been running (463.8) is approaching the resumption interval (493) - increasing resumption interval to 494
+0463.772 (0) Sftp chunked upload: 96.4 % uploaded
+0465.480 (0) The time we have been running (465.5) is approaching the resumption interval (494) - increasing resumption interval to 496
+0465.484 (0) Sftp chunked upload: 96.8 % uploaded
+0467.134 (0) The time we have been running (467.1) is approaching the resumption interval (496) - increasing resumption interval to 498
+0467.136 (0) Sftp chunked upload: 97.1 % uploaded
+0468.763 (0) The time we have been running (468.8) is approaching the resumption interval (498) - increasing resumption interval to 499
+0468.766 (0) Sftp chunked upload: 97.5 % uploaded
+0470.350 (0) The time we have been running (470.3) is approaching the resumption interval (499) - increasing resumption interval to 501
+0470.352 (0) Sftp chunked upload: 97.9 % uploaded
+0472.180 (0) The time we have been running (472.2) is approaching the resumption interval (501) - increasing resumption interval to 503
+0472.184 (0) Sftp chunked upload: 98.3 % uploaded
+0473.794 (0) The time we have been running (473.8) is approaching the resumption interval (503) - increasing resumption interval to 504
+0473.798 (0) Sftp chunked upload: 98.7 % uploaded
+0475.520 (0) The time we have been running (475.5) is approaching the resumption interval (504) - increasing resumption interval to 506
+0475.523 (0) Sftp chunked upload: 99.1 % uploaded
+0477.108 (0) The time we have been running (477.1) is approaching the resumption interval (506) - increasing resumption interval to 508
+0477.112 (0) Sftp chunked upload: 99.4 % uploaded
+0478.855 (0) The time we have been running (478.8) is approaching the resumption interval (508) - increasing resumption interval to 509
+0478.858 (0) Sftp chunked upload: 99.8 % uploaded
+0479.838 (0) Recording as successfully uploaded: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-uploads.zip
+0479.882 (0) Deleting local file: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-uploads.zip: OK
+0479.885 (0) SCP/SFTP upload: attempt: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-others.zip
+0480.145 (0) Recording as successfully uploaded: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-others.zip
+0480.150 (0) Deleting local file: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-others.zip: OK
+0480.150 (0) SCP/SFTP upload: attempt: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db.gz
+0481.731 (0) Recording as successfully uploaded: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db.gz
+0481.736 (0) Deleting local file: backup_2019-02-17-0416_KD_Alive_9405d6d4d6d9-db.gz: OK
+0481.740 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=52, retain_db=52
+0481.744 (0) Number of backup sets in history: 56; groups (db): 1
+0481.747 (0) Examining (for databases) backup set with group_id=0, nonce=9405d6d4d6d9, datestamp=1550377015 (Feb 17 2019 04:16:55)
+0481.748 (0) This backup set is the backup set just made, so will not be deleted.
+0481.748 (0) Examining (for databases) backup set with group_id=0, nonce=ea404e008497, datestamp=1549773015 (Feb 10 2019 04:30:15)
+0481.748 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.750 (0) Examining (for databases) backup set with group_id=0, nonce=889b436ff426, datestamp=1549167336 (Feb 03 2019 04:15:36)
+0481.751 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.751 (0) Examining (for databases) backup set with group_id=0, nonce=fa6a73d74fd7, datestamp=1548562419 (Jan 27 2019 04:13:39)
+0481.751 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.751 (0) Examining (for databases) backup set with group_id=0, nonce=6476241b5d08, datestamp=1547957744 (Jan 20 2019 04:15:44)
+0481.751 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.751 (0) Examining (for databases) backup set with group_id=0, nonce=24bdde8f2166, datestamp=1547352495 (Jan 13 2019 04:08:15)
+0481.751 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.751 (0) Examining (for databases) backup set with group_id=0, nonce=36ccbcf3e133, datestamp=1546748513 (Jan 06 2019 04:21:53)
+0481.751 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.751 (0) Examining (for databases) backup set with group_id=0, nonce=fe58917ee119, datestamp=1546143838 (Dec 30 2018 04:23:58)
+0481.751 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.751 (0) Examining (for databases) backup set with group_id=0, nonce=e7f4d2ee9777, datestamp=1545539063 (Dec 23 2018 04:24:23)
+0481.751 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.751 (0) Examining (for databases) backup set with group_id=0, nonce=c498c5139887, datestamp=1544933112 (Dec 16 2018 04:05:12)
+0481.751 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.751 (0) Examining (for databases) backup set with group_id=0, nonce=dd5129fb7b54, datestamp=1544328365 (Dec 09 2018 04:06:05)
+0481.751 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.751 (0) Examining (for databases) backup set with group_id=0, nonce=17a3f9bf174f, datestamp=1543725044 (Dec 02 2018 04:30:44)
+0481.751 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.751 (0) Examining (for databases) backup set with group_id=0, nonce=08c3060fbb9d, datestamp=1543277793 (Nov 27 2018 00:16:33)
+0481.751 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.751 (0) Examining (for databases) backup set with group_id=0, nonce=aff7a22ec9ca, datestamp=1543191469 (Nov 26 2018 00:17:49)
+0481.751 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.751 (0) Examining (for databases) backup set with group_id=0, nonce=b3c3640ef19e, datestamp=1543110674 (Nov 25 2018 01:51:14)
+0481.752 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.752 (0) Examining (for databases) backup set with group_id=0, nonce=91cfc5c8afd5, datestamp=1543018400 (Nov 24 2018 00:13:20)
+0481.752 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.752 (0) Examining (for databases) backup set with group_id=0, nonce=cab275ce9b44, datestamp=1542931742 (Nov 23 2018 00:09:02)
+0481.752 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.752 (0) Examining (for databases) backup set with group_id=0, nonce=438b15624a8d, datestamp=1542845504 (Nov 22 2018 00:11:44)
+0481.752 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.752 (0) Examining (for databases) backup set with group_id=0, nonce=a638678f2fa5, datestamp=1542758778 (Nov 21 2018 00:06:18)
+0481.752 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.752 (0) Examining (for databases) backup set with group_id=0, nonce=4491a998676d, datestamp=1542672404 (Nov 20 2018 00:06:44)
+0481.752 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.752 (0) Examining (for databases) backup set with group_id=0, nonce=50a7a5553dce, datestamp=1542649900 (Nov 19 2018 17:51:40)
+0481.752 (0) Examining (for databases) backup set with group_id=0, nonce=3e225a11b316, datestamp=1542649800 (Nov 19 2018 17:50:00)
+0481.752 (0) Examining (for databases) backup set with group_id=0, nonce=5f92798da4c7, datestamp=1542586117 (Nov 19 2018 00:08:37)
+0481.752 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.752 (0) Examining (for databases) backup set with group_id=0, nonce=8d66d207005d, datestamp=1542500043 (Nov 18 2018 00:14:03)
+0481.752 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.752 (0) Examining (for databases) backup set with group_id=0, nonce=88fa2838f63d, datestamp=1542413157 (Nov 17 2018 00:05:57)
+0481.752 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.752 (0) Examining (for databases) backup set with group_id=0, nonce=3fb4fdf34f83, datestamp=1542326700 (Nov 16 2018 00:05:00)
+0481.752 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.752 (0) Examining (for databases) backup set with group_id=0, nonce=9d97b2f014c1, datestamp=1542241502 (Nov 15 2018 00:25:02)
+0481.752 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.752 (0) Examining (for databases) backup set with group_id=0, nonce=13fb16d2db34, datestamp=1542156481 (Nov 14 2018 00:48:01)
+0481.752 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.752 (0) Examining (for databases) backup set with group_id=0, nonce=312fdac2a5b7, datestamp=1542068728 (Nov 13 2018 00:25:28)
+0481.752 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.753 (0) Examining (for databases) backup set with group_id=0, nonce=20d738ff527c, datestamp=1541983768 (Nov 12 2018 00:49:28)
+0481.753 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.753 (0) Examining (for databases) backup set with group_id=0, nonce=562e15a47f3b, datestamp=1541896449 (Nov 11 2018 00:34:09)
+0481.753 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.753 (0) Examining (for databases) backup set with group_id=0, nonce=91f36e1402f3, datestamp=1541808510 (Nov 10 2018 00:08:30)
+0481.753 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.753 (0) Examining (for databases) backup set with group_id=0, nonce=07c15a7c957e, datestamp=1541723642 (Nov 09 2018 00:34:02)
+0481.753 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.753 (0) Examining (for databases) backup set with group_id=0, nonce=5797f858afbb, datestamp=1541636790 (Nov 08 2018 00:26:30)
+0481.753 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.753 (0) Examining (for databases) backup set with group_id=0, nonce=23c265d364d5, datestamp=1541552774 (Nov 07 2018 01:06:14)
+0481.753 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.753 (0) Examining (for databases) backup set with group_id=0, nonce=dba1b076121f, datestamp=1541464011 (Nov 06 2018 00:26:51)
+0481.753 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.753 (0) Examining (for databases) backup set with group_id=0, nonce=d563ef53dea4, datestamp=1541378391 (Nov 05 2018 00:39:51)
+0481.753 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.753 (0) Examining (for databases) backup set with group_id=0, nonce=e9ceef9b54e1, datestamp=1541291787 (Nov 04 2018 00:36:27)
+0481.753 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.753 (0) Examining (for databases) backup set with group_id=0, nonce=946b65a21787, datestamp=1541205629 (Nov 03 2018 00:40:29)
+0481.753 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.753 (0) Examining (for databases) backup set with group_id=0, nonce=6223fd64e68d, datestamp=1541117132 (Nov 02 2018 00:05:32)
+0481.753 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.753 (0) Examining (for databases) backup set with group_id=0, nonce=803d8630a05c, datestamp=1541030811 (Nov 01 2018 00:06:51)
+0481.753 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.753 (0) Examining (for databases) backup set with group_id=0, nonce=682bb21354bd, datestamp=1540953369 (Oct 31 2018 02:36:09)
+0481.753 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.753 (0) Examining (for databases) backup set with group_id=0, nonce=482aa3d8c160, datestamp=1540876565 (Oct 30 2018 05:16:05)
+0481.753 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.754 (0) Examining (for databases) backup set with group_id=0, nonce=9202970477da, datestamp=1540771723 (Oct 29 2018 00:08:43)
+0481.754 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.754 (0) Examining (for databases) backup set with group_id=0, nonce=1036ca8329f1, datestamp=1540694207 (Oct 28 2018 02:36:47)
+0481.754 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.754 (0) Examining (for databases) backup set with group_id=0, nonce=7950a04e3f0b, datestamp=1540600009 (Oct 27 2018 00:26:49)
+0481.754 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.754 (0) Examining (for databases) backup set with group_id=0, nonce=9f0f21ecce6d, datestamp=1540568904 (Oct 26 2018 15:48:24)
+0481.754 (0) This backup set (1540568904) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0481.754 (0) Examining (for databases) backup set with group_id=0, nonce=31402587f798, datestamp=1540519785 (Oct 26 2018 02:09:45)
+0481.754 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.754 (0) Examining (for databases) backup set with group_id=0, nonce=42c1a84c526f, datestamp=1540439126 (Oct 25 2018 03:45:26)
+0481.754 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.754 (0) Examining (for databases) backup set with group_id=0, nonce=c1b66e969fd8, datestamp=1540389290 (Oct 24 2018 13:54:50)
+0481.754 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.754 (0) Examining (for databases) backup set with group_id=0, nonce=6d3b19765a6e, datestamp=1540292235 (Oct 23 2018 10:57:15)
+0481.754 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.754 (0) Examining (for databases) backup set with group_id=0, nonce=0512489dbcb7, datestamp=1540006025 (Oct 20 2018 03:27:05)
+0481.754 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.754 (0) Examining (for databases) backup set with group_id=0, nonce=bac573f92383, datestamp=1539907721 (Oct 19 2018 00:08:41)
+0481.754 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.754 (0) Examining (for databases) backup set with group_id=0, nonce=4f118ea5afcc, datestamp=1539822514 (Oct 18 2018 00:28:34)
+0481.754 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.754 (0) Examining (for databases) backup set with group_id=0, nonce=0c76cc290dc0, datestamp=1539734713 (Oct 17 2018 00:05:13)
+0481.754 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.754 (0) Examining (for databases) backup set with group_id=0, nonce=aa2b121ef5c7, datestamp=1539650083 (Oct 16 2018 00:34:43)
+0481.754 (0) 1539650083: db: this set includes a database (backup_2018-10-16-0034_KD_Alive_aa2b121ef5c7-db.gz); db count is now 52
+0481.754 (0) 1539650083: db: over retain limit (52); will delete this database
+0481.754 (0) Delete file: backup_2018-10-16-0034_KD_Alive_aa2b121ef5c7-db.gz, service=sftp
+0481.757 (0) SFTP: Delete remote: backup_2018-10-16-0034_KD_Alive_aa2b121ef5c7-db.gz
+0481.824 (0) SFTP: Delete failed: backup_2018-10-16-0034_KD_Alive_aa2b121ef5c7-db.gz
+0481.831 (0) The time we have been running (481.8) is approaching the resumption interval (509) - increasing resumption interval to 512
+0481.835 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0481.836 (0) Number of backup sets in history: 56; groups (files): 1
+0481.838 (0) Examining (for files) backup set with nonce=9405d6d4d6d9, datestamp=1550377015 (Feb 17 2019 04:16:55)
+0481.838 (0) This backup set is the backup set just made, so will not be deleted.
+0481.839 (0) This backup set is the backup set just made, so will not be deleted.
+0481.839 (0) This backup set is the backup set just made, so will not be deleted.
+0481.839 (0) This backup set is the backup set just made, so will not be deleted.
+0481.839 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.842 (0) Examining (for files) backup set with nonce=ea404e008497, datestamp=1549773015 (Feb 10 2019 04:30:15)
+0481.842 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.843 (0) Examining (for files) backup set with nonce=889b436ff426, datestamp=1549167336 (Feb 03 2019 04:15:36)
+0481.843 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.843 (0) Examining (for files) backup set with nonce=fa6a73d74fd7, datestamp=1548562419 (Jan 27 2019 04:13:39)
+0481.843 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.843 (0) Examining (for files) backup set with nonce=6476241b5d08, datestamp=1547957744 (Jan 20 2019 04:15:44)
+0481.843 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.843 (0) Examining (for files) backup set with nonce=24bdde8f2166, datestamp=1547352495 (Jan 13 2019 04:08:15)
+0481.843 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.843 (0) Examining (for files) backup set with nonce=36ccbcf3e133, datestamp=1546748513 (Jan 06 2019 04:21:53)
+0481.843 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.843 (0) Examining (for files) backup set with nonce=fe58917ee119, datestamp=1546143838 (Dec 30 2018 04:23:58)
+0481.843 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.843 (0) Examining (for files) backup set with nonce=e7f4d2ee9777, datestamp=1545539063 (Dec 23 2018 04:24:23)
+0481.843 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.843 (0) Examining (for files) backup set with nonce=c498c5139887, datestamp=1544933112 (Dec 16 2018 04:05:12)
+0481.843 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.844 (0) Examining (for files) backup set with nonce=dd5129fb7b54, datestamp=1544328365 (Dec 09 2018 04:06:05)
+0481.844 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.844 (0) Examining (for files) backup set with nonce=17a3f9bf174f, datestamp=1543725044 (Dec 02 2018 04:30:44)
+0481.844 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.844 (0) Examining (for files) backup set with nonce=08c3060fbb9d, datestamp=1543277793 (Nov 27 2018 00:16:33)
+0481.844 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.844 (0) Examining (for files) backup set with nonce=aff7a22ec9ca, datestamp=1543191469 (Nov 26 2018 00:17:49)
+0481.844 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.844 (0) Examining (for files) backup set with nonce=b3c3640ef19e, datestamp=1543110674 (Nov 25 2018 01:51:14)
+0481.844 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.844 (0) Examining (for files) backup set with nonce=91cfc5c8afd5, datestamp=1543018400 (Nov 24 2018 00:13:20)
+0481.844 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.844 (0) Examining (for files) backup set with nonce=cab275ce9b44, datestamp=1542931742 (Nov 23 2018 00:09:02)
+0481.844 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.844 (0) Examining (for files) backup set with nonce=438b15624a8d, datestamp=1542845504 (Nov 22 2018 00:11:44)
+0481.844 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.844 (0) Examining (for files) backup set with nonce=a638678f2fa5, datestamp=1542758778 (Nov 21 2018 00:06:18)
+0481.844 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.844 (0) Examining (for files) backup set with nonce=4491a998676d, datestamp=1542672404 (Nov 20 2018 00:06:44)
+0481.844 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.844 (0) Examining (for files) backup set with nonce=50a7a5553dce, datestamp=1542649900 (Nov 19 2018 17:51:40)
+0481.844 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0481.847 (0) Examining (for files) backup set with nonce=3e225a11b316, datestamp=1542649800 (Nov 19 2018 17:50:00)
+0481.847 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0481.847 (0) Examining (for files) backup set with nonce=5f92798da4c7, datestamp=1542586117 (Nov 19 2018 00:08:37)
+0481.847 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.848 (0) Examining (for files) backup set with nonce=8d66d207005d, datestamp=1542500043 (Nov 18 2018 00:14:03)
+0481.848 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.848 (0) Examining (for files) backup set with nonce=88fa2838f63d, datestamp=1542413157 (Nov 17 2018 00:05:57)
+0481.848 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.848 (0) Examining (for files) backup set with nonce=3fb4fdf34f83, datestamp=1542326700 (Nov 16 2018 00:05:00)
+0481.848 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.848 (0) Examining (for files) backup set with nonce=9d97b2f014c1, datestamp=1542241502 (Nov 15 2018 00:25:02)
+0481.848 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.848 (0) Examining (for files) backup set with nonce=13fb16d2db34, datestamp=1542156481 (Nov 14 2018 00:48:01)
+0481.848 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.848 (0) Examining (for files) backup set with nonce=312fdac2a5b7, datestamp=1542068728 (Nov 13 2018 00:25:28)
+0481.848 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.848 (0) Examining (for files) backup set with nonce=20d738ff527c, datestamp=1541983768 (Nov 12 2018 00:49:28)
+0481.848 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.848 (0) Examining (for files) backup set with nonce=562e15a47f3b, datestamp=1541896449 (Nov 11 2018 00:34:09)
+0481.848 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.848 (0) Examining (for files) backup set with nonce=91f36e1402f3, datestamp=1541808510 (Nov 10 2018 00:08:30)
+0481.848 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.849 (0) Examining (for files) backup set with nonce=07c15a7c957e, datestamp=1541723642 (Nov 09 2018 00:34:02)
+0481.849 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.849 (0) Examining (for files) backup set with nonce=5797f858afbb, datestamp=1541636790 (Nov 08 2018 00:26:30)
+0481.849 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.849 (0) Examining (for files) backup set with nonce=23c265d364d5, datestamp=1541552774 (Nov 07 2018 01:06:14)
+0481.849 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.849 (0) Examining (for files) backup set with nonce=dba1b076121f, datestamp=1541464011 (Nov 06 2018 00:26:51)
+0481.849 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.849 (0) Examining (for files) backup set with nonce=d563ef53dea4, datestamp=1541378391 (Nov 05 2018 00:39:51)
+0481.849 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.849 (0) Examining (for files) backup set with nonce=e9ceef9b54e1, datestamp=1541291787 (Nov 04 2018 00:36:27)
+0481.849 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.849 (0) Examining (for files) backup set with nonce=946b65a21787, datestamp=1541205629 (Nov 03 2018 00:40:29)
+0481.849 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.849 (0) Examining (for files) backup set with nonce=6223fd64e68d, datestamp=1541117132 (Nov 02 2018 00:05:32)
+0481.849 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.849 (0) Examining (for files) backup set with nonce=803d8630a05c, datestamp=1541030811 (Nov 01 2018 00:06:51)
+0481.849 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.849 (0) Examining (for files) backup set with nonce=682bb21354bd, datestamp=1540953369 (Oct 31 2018 02:36:09)
+0481.849 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.849 (0) Examining (for files) backup set with nonce=482aa3d8c160, datestamp=1540876565 (Oct 30 2018 05:16:05)
+0481.849 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.849 (0) Examining (for files) backup set with nonce=9202970477da, datestamp=1540771723 (Oct 29 2018 00:08:43)
+0481.850 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.850 (0) Examining (for files) backup set with nonce=1036ca8329f1, datestamp=1540694207 (Oct 28 2018 02:36:47)
+0481.850 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.850 (0) Examining (for files) backup set with nonce=7950a04e3f0b, datestamp=1540600009 (Oct 27 2018 00:26:49)
+0481.850 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.850 (0) Examining (for files) backup set with nonce=9f0f21ecce6d, datestamp=1540568904 (Oct 26 2018 15:48:24)
+0481.850 (0) This backup set (1540568904) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0481.850 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.850 (0) Examining (for files) backup set with nonce=31402587f798, datestamp=1540519785 (Oct 26 2018 02:09:45)
+0481.850 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.850 (0) Examining (for files) backup set with nonce=42c1a84c526f, datestamp=1540439126 (Oct 25 2018 03:45:26)
+0481.850 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.850 (0) Examining (for files) backup set with nonce=c1b66e969fd8, datestamp=1540389290 (Oct 24 2018 13:54:50)
+0481.850 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.850 (0) Examining (for files) backup set with nonce=6d3b19765a6e, datestamp=1540292235 (Oct 23 2018 10:57:15)
+0481.850 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.850 (0) Examining (for files) backup set with nonce=0512489dbcb7, datestamp=1540006025 (Oct 20 2018 03:27:05)
+0481.850 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.850 (0) Examining (for files) backup set with nonce=bac573f92383, datestamp=1539907721 (Oct 19 2018 00:08:41)
+0481.850 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.850 (0) Examining (for files) backup set with nonce=4f118ea5afcc, datestamp=1539822514 (Oct 18 2018 00:28:34)
+0481.850 (0) themes: over retain limit (52); will delete this file entity
+0481.850 (0) Delete file: backup_2018-10-18-0028_KD_Alive_4f118ea5afcc-themes.zip, service=sftp
+0481.853 (0) SFTP: Delete remote: backup_2018-10-18-0028_KD_Alive_4f118ea5afcc-themes.zip
+0481.920 (0) SFTP: Delete failed: backup_2018-10-18-0028_KD_Alive_4f118ea5afcc-themes.zip
+0481.924 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.926 (0) Examining (for files) backup set with nonce=0c76cc290dc0, datestamp=1539734713 (Oct 17 2018 00:05:13)
+0481.926 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0481.926 (0) Examining (for files) backup set with nonce=aa2b121ef5c7, datestamp=1539650083 (Oct 16 2018 00:34:43)
+0481.926 (0) plugins: over retain limit (52); will delete this file entity
+0481.926 (0) uploads: over retain limit (52); will delete this file entity
+0481.926 (0) others: over retain limit (52); will delete this file entity
+0481.926 (0) Delete file: backup_2018-10-16-0034_KD_Alive_aa2b121ef5c7-plugins.zip, service=sftp
+0481.927 (0) Delete file: backup_2018-10-16-0034_KD_Alive_aa2b121ef5c7-uploads.zip, service=sftp
+0481.928 (0) Delete file: backup_2018-10-16-0034_KD_Alive_aa2b121ef5c7-others.zip, service=sftp
+0481.930 (0) SFTP: Delete remote: backup_2018-10-16-0034_KD_Alive_aa2b121ef5c7-plugins.zip
+0481.995 (0) SFTP: Delete failed: backup_2018-10-16-0034_KD_Alive_aa2b121ef5c7-plugins.zip
+0481.998 (0) SFTP: Delete remote: backup_2018-10-16-0034_KD_Alive_aa2b121ef5c7-uploads.zip
+0482.063 (0) SFTP: Delete failed: backup_2018-10-16-0034_KD_Alive_aa2b121ef5c7-uploads.zip
+0482.066 (0) SFTP: Delete remote: backup_2018-10-16-0034_KD_Alive_aa2b121ef5c7-others.zip
+0482.131 (0) SFTP: Delete failed: backup_2018-10-16-0034_KD_Alive_aa2b121ef5c7-others.zip
+0482.138 (0) The time we have been running (482.1) is approaching the resumption interval (512) - increasing resumption interval to 513
+0482.142 (0) This backup set is now empty; will remove from history
+0482.143 (0) Corresponding log file (log.aa2b121ef5c7.txt) not found - must have already been deleted
+0482.144 (0) Retain: saving new backup history (sets now: 55) and finishing retain operation
+0482.155 (0) Resume backup (9405d6d4d6d9, 0): finish run
+0482.159 (0) Decremented the semaphore (fd) by 1
+0482.162 (0) Semaphore (fd) unlocked
+0482.163 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0482.168 (0) No email will/can be sent - the user has not configured an email address.
+0482.170 (0) The backup apparently succeeded and is now complete

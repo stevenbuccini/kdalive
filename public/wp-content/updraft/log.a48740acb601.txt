@@ -1,0 +1,40 @@
+0881.576 (1) Opened log file at time: Sun, 10 Feb 2019 04:44:57 +0000 on https://kdalive.com
+0881.579 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.5.24 WP: 5.0.3 PHP: 7.0.32 (fpm-fcgi, Linux production02.oakleystudio.com 4.4.0-1054-aws #63-Ubuntu SMP Wed Mar 28 19:42:42 UTC 2018 x86_64) MySQL: 5.7.23-0ubuntu0.16.04.1-log WPLANG: en_US Server: Apache/2.4.35 (Unix) OpenSSL/1.0.2g safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 36.1M | 38M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0881.580 (1) Free space on disk containing Updraft's temporary directory: 28108.8 MB
+0881.583 (1) It looks like WordPress's scheduler has started multiple instances of this resumption
+0881.585 (1) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1549773896.6, time_now=1549773897.4, diff=0, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+0881.587 (1) Rescheduling resumption 2: moving to 300 seconds from now (1549774197)
+0881.591 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 0 = 300
+1958.263 (2) Opened log file at time: Sun, 10 Feb 2019 05:02:54 +0000 on https://kdalive.com
+1958.264 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.5.24 WP: 5.0.3 PHP: 7.0.32 (fpm-fcgi, Linux production02.oakleystudio.com 4.4.0-1054-aws #63-Ubuntu SMP Wed Mar 28 19:42:42 UTC 2018 x86_64) MySQL: 5.7.23-0ubuntu0.16.04.1-log WPLANG: en_US Server: Apache/2.4.35 (Unix) OpenSSL/1.0.2g safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 36.1M | 38M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1958.265 (2) Free space on disk containing Updraft's temporary directory: 28107.4 MB
+1958.267 (2) It looks like WordPress's scheduler has started multiple instances of this resumption
+1958.271 (2) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1549774973.6, time_now=1549774974.1, diff=0, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+1958.272 (2) Rescheduling resumption 3: moving to 300 seconds from now (1549775274)
+1958.276 (2) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 0 = 300
+4458.944 (3) Opened log file at time: Sun, 10 Feb 2019 05:44:34 +0000 on https://kdalive.com
+4458.945 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.5.24 WP: 5.0.3 PHP: 7.0.32 (fpm-fcgi, Linux production02.oakleystudio.com 4.4.0-1054-aws #63-Ubuntu SMP Wed Mar 28 19:42:42 UTC 2018 x86_64) MySQL: 5.7.23-0ubuntu0.16.04.1-log WPLANG: en_US Server: Apache/2.4.35 (Unix) OpenSSL/1.0.2g safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 36.1M | 38M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+4458.947 (3) Free space on disk containing Updraft's temporary directory: 27791.7 MB
+4458.948 (3) It looks like WordPress's scheduler has started multiple instances of this resumption
+4458.952 (3) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1549777474, time_now=1549777474.7, diff=0, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+4458.953 (3) Rescheduling resumption 4: moving to 300 seconds from now (1549777774)
+4458.956 (3) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 0 = 300
+5700.687 (4) Opened log file at time: Sun, 10 Feb 2019 06:05:16 +0000 on https://kdalive.com
+5700.688 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.5.24 WP: 5.0.3 PHP: 7.0.32 (fpm-fcgi, Linux production02.oakleystudio.com 4.4.0-1054-aws #63-Ubuntu SMP Wed Mar 28 19:42:42 UTC 2018 x86_64) MySQL: 5.7.23-0ubuntu0.16.04.1-log WPLANG: en_US Server: Apache/2.4.35 (Unix) OpenSSL/1.0.2g safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 36.4M | 38M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+5700.689 (4) Free space on disk containing Updraft's temporary directory: 28103.7 MB
+5700.692 (4) It looks like WordPress's scheduler has started multiple instances of this resumption
+5700.696 (4) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1549778716.2, time_now=1549778716.5, diff=0, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+5700.697 (4) Rescheduling resumption 5: moving to 300 seconds from now (1549779016)
+5700.700 (4) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 0 = 300
+6423.988 (5) Opened log file at time: Sun, 10 Feb 2019 06:17:19 +0000 on https://kdalive.com
+6423.989 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.5.24 WP: 5.0.3 PHP: 7.0.32 (fpm-fcgi, Linux production02.oakleystudio.com 4.4.0-1054-aws #63-Ubuntu SMP Wed Mar 28 19:42:42 UTC 2018 x86_64) MySQL: 5.7.23-0ubuntu0.16.04.1-log WPLANG: en_US Server: Apache/2.4.35 (Unix) OpenSSL/1.0.2g safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 36.1M | 38M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+6423.991 (5) Free space on disk containing Updraft's temporary directory: 28365.2 MB
+6423.992 (5) It looks like WordPress's scheduler has started multiple instances of this resumption
+6423.996 (5) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1549779437.8, time_now=1549779439.8, diff=2, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+6423.997 (5) Rescheduling resumption 6: moving to 300 seconds from now (1549779739)
+6424.003 (5) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 0 = 300
+7392.231 (6) Opened log file at time: Sun, 10 Feb 2019 06:33:28 +0000 on https://kdalive.com
+7392.234 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.5.24 WP: 5.0.3 PHP: 7.0.32 (fpm-fcgi, Linux production02.oakleystudio.com 4.4.0-1054-aws #63-Ubuntu SMP Wed Mar 28 19:42:42 UTC 2018 x86_64) MySQL: 5.7.23-0ubuntu0.16.04.1-log WPLANG: en_US Server: Apache/2.4.35 (Unix) OpenSSL/1.0.2g safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 32.8M | 34M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+7392.236 (6) Free space on disk containing Updraft's temporary directory: 28364.2 MB
+7392.240 (6) Backup run: resumption=6, nonce=a48740acb601, file_nonce=a48740acb601 begun at=1549773015 (7393s ago), job type=backup, previous check-in=0s
+7392.241 (6) Terminate: This backup job is already finished (1).
